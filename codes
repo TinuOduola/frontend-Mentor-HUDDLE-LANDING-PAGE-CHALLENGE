@@ -1,0 +1,206 @@
+</!DOCTYPE html>
+	<html>
+	<head>
+		<title>Huddle mobile design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+header{
+	width:80px;
+}
+
+.hero-box{
+width:500px; 
+padding:20px 0px 20px 0px;
+margin:auto;
+position:relative;
+background-color:hsl(193, 100%, 96%);
+}
+
+input[type=submit]{
+	background-color:hsl(322, 100%, 66%);
+	color:#fff;
+	font-family:open-sans;
+	font-weight:400;
+	border-radius: 20px;
+	border:1px hsl(322, 100%, 66%); 
+	width:300px;
+	height:50px;
+	font-size:18px;
+	padding:10px 10px 10px 10px;
+	margin:30px 80px 60px 80px;
+	box-shadow: 5px hsl(322, 100%, 66%);
+}
+
+
+.box1{
+width:375px; 
+height:680px;
+padding:10px 0px 0px 0px;	
+box-shadow:2px 2px 2px 2px lightgrey;
+margin:50px auto;
+border-radius:12px;	
+}
+
+.box2{
+width:375px; 
+height:680px;
+padding:15px 0px 0px 0px;	
+box-shadow:2px 2px 2px 2px lightgrey;
+margin:50px auto;
+border-radius:12px;	
+}
+
+.box3{
+width:375px; 
+height:680px;	
+box-shadow:2px 2px 2px 2px lightgrey;
+margin:50px auto 100px auto;
+border-radius:12px;	
+}
+
+.last-box{
+background-color: hsl(192, 100%, 9%);
+width:500px; 
+height:750px;
+margin:50px 0px 0px 0px;
+padding:50px 0px 0px 0px;	
+box-shadow:2px 2px 2px 2px lightgrey;
+margin:auto;
+border-bottom: 20px;
+color:#fff;
+}
+
+.article{
+align-items:center;
+margin: auto;
+padding:10px 15px 0px 15px;
+}
+
+.illustration{
+padding:10px 20px 0px 20px;
+margin:0px 30px;
+
+}
+
+h1{
+font-family:poppins;
+font-weight:600px;
+text-transform:capitalize;
+color: hsl(192, 100%, 9%);
+text-align: center;	
+}
+
+p{
+color: hsl(208, 11%, 55%);
+font-size:22px;	
+font-family:serif;
+text-align: center;
+line-height:33px;
+}
+
+ul{
+line-height:25px; 
+font-family:sans-serif;
+font-size:18px;
+}
+
+#flex-container{
+display:flex;
+background-color:#fafafa;
+flex-direction:column;
+width:500px;	
+height:2500px; 
+margin:auto;
+}
+
+	</style>
+	</head>
+
+
+
+	<body>
+<div class="hero-box">
+		 <header>
+           <img src="HUDDLE ILLUSTRATIONS\logo.svg" alt="">
+          </header>
+
+           <img src="HUDDLE ILLUSTRATIONS\bg-hero-mobile.svg" alt="" width="400px" height="500px"/>
+           <div class="article">
+			<h1>Build The Community Your Fans Will Love</h1> 
+              <p>Huddle re-imagines the way we build communities.You have a voice,so does your audience.Create connection with your users as you engage in genuine discussion.</p>
+            </div>
+            <input type="submit" value="Get Started for Free"/>
+
+   	    <div class="illustration">  
+   	   <img src="HUDDLE ILLUSTRATIONS\illustration-mockups.svg" alt="" width="350px" height="300px"/>
+   	   	</div>	
+   	    </div>
+	
+<div id="flex-container">
+<div class="box1">
+	<div class="illustration" >
+	  <img src="HUDDLE ILLUSTRATIONS\illustration-grow-together.svg" alt="" width="300px" height="350px">
+    </div>
+    <div class="article">
+      <h1>Grow together</h1>
+      <p>Generate meaningful discussion with your audience and build a strong,loyal community.Think of the insightful conversations you miss out on with a feedback form.</p>
+    </div>
+</div>
+
+
+
+<div class="box2" width="300px" height="300px">
+	<div class="illustration">
+		<img src="HUDDLE ILLUSTRATIONS\illustration-flowing-conversation.svg" alt="" width="300px" height="300px">
+	</div>
+    
+    <div class="article">
+    <h1>Flowing conversation</h1>
+    <p>You won't paginate a conversation in real life,so why do it online?Our threads have just-in-time loading for more natural flow.</p>
+    </div>
+</div>
+
+
+	<div class="box3">
+		<div class="illustration">
+			<img src="HUDDLE ILLUSTRATIONS\illustration-your-users.svg" alt="" width="300px" height="300px">
+		</div>
+
+		 <div class="article">
+			<h1>Your users</h1>
+			<p>It takes no time at all to integrate Huddle with your app's authentication solution.This means,once signed in to your app,your user can start chatting immediately.</p>
+
+         </div>
+	</div>
+</div>
+
+<!--Coloured box that contains the location details,social media icons,etc-->
+	<div class="Last-box">
+		<img src="HUDDLE ILLUSTRATIONS\location.svg" alt="" width="50px" height="50px"/>
+		<i class="material-icons"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+
+	<ul>+1-543-123-4567</ul>
+	<ul>example@huddle.com</ul>
+
+
+		<ul>About Us</ul>
+		<ul>What We do</ul>
+	    <ul>FAQ</ul>
+		<ul>Career</ul>
+		<ul>Blog</ul>
+		<ul>Contact Us</ul>
+
+		
+	</div>
+
+
+</div>
+	</body>
+	</html>
